@@ -1,0 +1,19 @@
+CREATE TABLE Users (
+	Id BIGINT PRIMARY KEY IDENTITY,
+	Username VARCHAR(30) NOT NULL UNIQUE,
+	[Password] VARCHAR(26) NOT NULL,
+	ProfilePicture VARBINARY(MAX),
+	LastLoginTime SMALLDATETIME,
+	IsDeleted BIT,
+
+	CONSTRAINT CHK_ProfilePicture
+	CHECK (DATALENGTH(ProfilePicture) <= 900 * 1024)
+)
+
+INSERT INTO Users (Username, [Password], ProfilePicture, LastLoginTime, IsDeleted)
+VALUES
+('Pesho', '123456', NULL, CONVERT(SMALLDATETIME, '25-05-2018', 103), 0),
+('Gosho', 'qwerty', NULL, CONVERT(SMALLDATETIME, '25-05-2017', 103), 0),
+('Misho', 'dragon', NULL, CONVERT(SMALLDATETIME, '21-05-2018', 103), 0),
+('Ivan', 'passs', NULL, CONVERT(SMALLDATETIME, '15-05-2018', 103), 0),
+('Penka', '000000', NULL, CONVERT(SMALLDATETIME, '05-05-2018', 103), 0)
