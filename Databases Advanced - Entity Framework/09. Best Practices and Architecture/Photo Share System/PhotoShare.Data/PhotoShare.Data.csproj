@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20180824194437_Initial.cs" />
+    <Compile Remove="Migrations\20180825140108_Initial.cs" />
+    <Compile Remove="Migrations\20180825140929_Initial.cs" />
+    <Compile Remove="Migrations\20180825143923_Initial.cs" />
+    <Compile Remove="Migrations\20180825145518_Initial.cs" />
+    <Compile Remove="Migrations\20180825150407_Initial.cs" />
+    <Compile Remove="Migrations\20180825151336_Initial.cs" />
+    <Compile Remove="Migrations\20180825151619_Initial.cs" />
+    <Compile Remove="Migrations\20180825152646_Initial.cs" />
+    <Compile Remove="Migrations\20180825153222_Initial.cs" />
+    <Compile Remove="Migrations\20180825154037_Initial.cs" />
+    <Compile Remove="Migrations\20180825223814_Initial.cs" />
+    <Compile Remove="Migrations\20180825224245_Initial.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.1" />
+    <PackageReference Include="microsoft.entityframeworkcore.tools" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PhotoShare.Models\PhotoShare.Models.csproj" />
+  </ItemGroup>
+
+</Project>
