@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<albums>
+	<album>
+		<name>The End of Kings</name>
+		<artist>Queen</artist>
+		<year>2018</year>
+		<producer>Fat Funky</producer>
+		<price>0.99</price>
+		<songs>
+			<song>
+				<title>Lotus Flower</title>
+				<duration>3:48</duration>
+			</song>
+			<song>
+				<title>Give Up the Ghost</title>
+				<duration>3:17</duration>
+			</song>
+		</songs>
+	</album>
+</albums>

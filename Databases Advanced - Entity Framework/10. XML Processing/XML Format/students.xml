@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<students>
+	<student>
+		<name>Ivan Ivanov</name>
+		<gender>Male</gender>
+		<birthDate>1999/12/21</birthDate>
+		<pnoneNumber>0000000000</pnoneNumber>
+		<email>ivan.ivanov@abv.bg</email>
+		<university>Software University</university>
+		<specialty>C# Web Developer</specialty>
+		<facultyNumber>0123456789</facultyNumber>
+		<exams>
+			<exam>
+				<name>Programming Basics</name>
+				<dateTaken>2017/01/01</dateTaken>
+				<grade>6.0</grade>
+			</exam>
+			<exam>
+				<name>Programming Fundamentals</name>
+				<dateTaken>2017/08/20</dateTaken>
+				<grade>5.99</grade>
+			</exam>
+		</exams>
+	</student>
+</students>
